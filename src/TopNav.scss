@@ -1,0 +1,36 @@
+@import "_vars";
+
+.navbar {
+    background-color: transparent;
+    padding: 2rem !important;
+    font-weight: 900;
+}
+
+.navbar-brand > h2 {
+    font-weight: 900;
+    margin-left: 0.75rem;
+    font-size: 2.15rem;
+    letter-spacing: -.12rem;
+    word-spacing: 0rem;
+    color: $base-text-color;
+    margin-bottom: 0.75rem;
+    
+    b {
+        color: $highlight-text-color;
+    }
+}
+
+.nav-item {
+    margin: 0 1.15rem;
+    
+    a {
+        font-weight: 700;
+        color: $base-text-color !important;
+        font-size: 0.85rem;
+        letter-spacing: .12rem;
+      
+        &:hover, &:active {
+            color: $highlight-text-color !important;
+        }
+    }
+}
