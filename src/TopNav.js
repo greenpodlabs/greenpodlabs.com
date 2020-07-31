@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import './TopNav.scss';
 
 const TopNav = () => (
-    <Navbar variant="light" expand="lg">
+    <Navbar fixed="top" variant="light" expand="lg">
         <Navbar.Brand href="/">
             <img
                 src="/assets/images/logo.png"
@@ -14,7 +14,7 @@ const TopNav = () => (
                 className="d-inline-block align-bottom"
                 alt="Greenpod Labs"
             />
-            <h2 className="d-inline-block align-bottom">Greenpod <b>Labs</b></h2>
+            <h2 className="d-lg-inline-block d-none align-bottom">Greenpod <b>Labs</b></h2>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

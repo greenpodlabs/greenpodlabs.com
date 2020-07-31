@@ -1,15 +1,19 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Home from './Home';
+import { Row, Col, Container, Button } from 'react-bootstrap';
 import TopNav from './TopNav';
+import Home from './Home';
+import Problem from './Problem';
 
 import './App.scss';
 
 const App = () => (
+    <div>
+    <TopNav />
     <Container fluid>
-        <TopNav />
         <Home />
+        <Problem />
     </Container>
+    </div>
 );
 
 export default App;
