@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import TopNav from './TopNav';
 import Home from './Home';
-import Problem from './Problem';
+import LearnMore from './LearnMore';
 
 import './App.scss';
 
@@ -11,7 +11,7 @@ const App = () => (
     <TopNav />
     <Container fluid>
         <Home />
-        <Problem />
+        <LearnMore />
     </Container>
     </div>
 );

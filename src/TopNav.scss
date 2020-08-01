@@ -1,5 +1,9 @@
 @import "_vars";
 
+$duration: .2s;
+$distance: 8px;
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
 .navbar {
     background-color: $cream-color;
     padding: 2rem !important;
@@ -28,9 +32,43 @@
         color: $base-text-color !important;
         font-size: 0.75rem;
         letter-spacing: .12rem;
+        position: relative;
       
-        &:hover, &:active {
-            color: $highlight-text-color !important;
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 10px; 
+            right: 10px;
+            height: 4px;
+            background-color: $highlight-text-color;
+        }
+
+        &:before {
+            opacity: 0;
+            transform: translateY(- $distance);
+            transition: transform 0s $easeOutBack, opacity 0s;
+        }
+        &:after {
+            opacity: 0;
+            transform: translateY($distance/2);
+            transition: transform $duration $easeOutBack, opacity $duration;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            &:before,
+            &:after {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            &:before {
+                transition: transform $duration $easeOutBack, opacity $duration;
+            }
+            &:after {
+                transition: transform 0s $duration $easeOutBack, opacity 0s $duration;
+            }
         }
     }
 }

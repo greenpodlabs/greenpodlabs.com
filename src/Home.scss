@@ -1,11 +1,10 @@
 @import '_vars';
 
 #home {
-    padding-top: 4.5rem;
+    margin-top: 18.5rem;
 }
 
 #tagline {
-    margin-top: 2.5rem;
     h1 {
         font-weight: 600;
         font-size: 3.25rem;
@@ -44,8 +43,4 @@
             background-color: $lime-green-color;
         }
     }
-}
-
-img.illustration {
-    margin-top: 4rem;
 }

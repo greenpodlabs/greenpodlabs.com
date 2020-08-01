@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import './Problem.scss'
+import './LearnMore.scss'
 
-const Problem = () => (
+const LearnMore = () => (
     <div />
 );
 
-export default Problem;
+export default LearnMore;
