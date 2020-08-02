@@ -5,26 +5,6 @@
 }
 
 #tagline {
-    h1 {
-        font-weight: 600;
-        font-size: 3.45rem;
-        color: $base-text-color;
-        letter-spacing: -.12rem;
-
-        b {
-            color: $highlight-text-color;
-            font-weight: 600;
-        }
-    }
-
-    span {
-        display: block;
-        margin-top: 1.4rem;
-        font-size: 1.5rem;
-        font-weight: 200;
-        color: lighten($base-text-color, 25);
-    }
-
     .btn {
         margin-top: 3rem;
         display: inline-block;

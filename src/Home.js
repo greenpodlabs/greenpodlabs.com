@@ -12,8 +12,8 @@ const Home = () => (
                 </Col>
                 <Col md={{ span: 7, offset: 2 }} sm={12}>
                     <div id="tagline">
-                        <h1><b>Nature</b> Inspired Solutions to Minimize Food Waste.</h1>
-                        <span>Our solution uses a unique composition of active compounds which creates a controlled environment which slows down the ripening rate and limits microbial growth.</span>
+                        <h1 className="tagline"><b>Nature</b> Inspired Solutions to Minimize Food Waste.</h1>
+                        <span className="subtext">Our solution uses a unique composition of active compounds which creates a controlled environment which slows down the ripening rate and limits microbial growth.</span>
                         <Link className="btn btn-primary" to="learn-more" spy={true} smooth={true} duration={400} delay={100}>LEARN MORE</Link>{''}
                     </div>
                 </Col>

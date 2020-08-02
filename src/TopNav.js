@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import './TopNav.scss';
 
@@ -21,9 +22,10 @@ const TopNav = () => (
         
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-                <Nav.Item><Nav.Link href="#product">PRODUCT</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href="#science">SOLUTION</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href="#team">CONTACT</Nav.Link></Nav.Item>
+                <Nav.Item><Link href="#" className="nav-link" to="home" offset={-500} spy={true} smooth={true} duration={400} delay={100}>HOME</Link>{''}</Nav.Item>
+                <Nav.Item><Link href="#" className="nav-link" to="learn-more" spy={true} smooth={true} duration={400} delay={100}>PROBLEM</Link></Nav.Item>
+                <Nav.Item><Link href="#" className="nav-link" to="our-solution" spy={true} smooth={true} duration={400} delay={100}>SOLUTION</Link></Nav.Item>
+                <Nav.Item><Link href="#" className="nav-link" to="contact" spy={true} smooth={true} duration={400} delay={100}>CONTACT</Link></Nav.Item>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
