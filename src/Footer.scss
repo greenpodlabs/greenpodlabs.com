@@ -1,5 +1,27 @@
 @import '_vars';
 
-#footer-content {
-    border-top: 1px solid $sub-text-color;
+#footer {
+    padding-bottom: 3rem;
+    h5 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        display: inline;
+        margin-right: 20px;
+    }
+    i {
+        color: $lime-green-color;
+        margin: 0 15px;
+        font-size: 1.75rem;
+    }
+
+    span {
+        color: $sub-text-color;
+    }
+
+    @media (max-width: 767px) {
+        span {
+            display: inline-block;
+            margin-top: 1rem;
+        }
+    }
 }

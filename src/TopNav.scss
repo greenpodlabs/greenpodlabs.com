@@ -5,17 +5,16 @@ $distance: 8px;
 $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 .navbar {
-    background-color: $cream-color;
+    background-color: $white-color;
     padding: 2rem !important;
-    font-weight: 900;
 }
 
 .navbar-brand > h2 {
     font-weight: 900;
-    margin-left: 0.75rem;
-    font-size: 2.15rem;
-    letter-spacing: -.12rem;
+    margin-left: 1rem;
+    font-size: 2.05rem;
     word-spacing: 0rem;
+    font-family: 'Prompt', sans-serif;
     color: $base-text-color;
     margin-bottom: 0.75rem;
     
@@ -28,10 +27,11 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
     margin: 0 1.15rem;
     
     a {
-        font-weight: 900 !important;
+        font-weight: 700 !important;
+        font-family: 'Prompt', sans-serif;
         color: $base-text-color !important;
-        font-size: 0.9rem;
-        letter-spacing: .12rem;
+        font-size: 0.85rem;
+        letter-spacing: .10rem;
         position: relative;
       
         &:before, &:after {

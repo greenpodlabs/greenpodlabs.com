@@ -1,28 +1,23 @@
 @import '_vars';
 
 #company {
-    margin-top: 17rem;
-    margin-bottom: 10rem;
+    padding: 10rem 0;
+    margin-bottom: 5rem;
+    background-color: $body-bg-color-alt;
 
-    #values {
-        margin-top: 6.5rem;
-    }
-
-    .subtext {
-        margin-top: 10rem;
-    }
-
-    .values-box {
-        width: 100px;
-        height: 125px;
+    .card {
         text-align: center;
-        margin: 15px;
-    
-        span {
-            font-weight: 900;
-            margin-top: 25px;
-            display: inline-block;
-        }
+        height: 10rem;
+    }
+
+    .card-body {
+        font-size: 0.9rem;
+        font-weight: 900;
+        margin-top: 30%;
+    }
+
+    .btn {
+        margin-top: 3rem;
     }
 }
 

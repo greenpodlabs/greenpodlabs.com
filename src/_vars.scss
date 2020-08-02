@@ -1,14 +1,16 @@
-$cream-color: #FFFFFF;
+$white-color: #FFFFFF;
+$cream-color: #FAFAFA;
 $lime-green-color: #49AA39;
 $dark-black-color: #1C2219;
-$lightgray-color: #6d6c6c;
+$lightgray-color: #8F8F8F;
 $gainsbara-color: #e0e0e0;
 
-$body-bg-color: $cream-color;
+$body-bg-color: $white-color;
+$body-bg-color-alt: $cream-color;
 $base-text-color: $dark-black-color;
 $sub-text-color: $lightgray-color;
 $highlight-text-color: lighten($lime-green-color, 7.5);
-$button-text-color: $cream-color;
+$button-text-color: $white-color;
 
 // $body-bg-color: $dark-sea-green-color;
 // $base-text-color: $cream-color;

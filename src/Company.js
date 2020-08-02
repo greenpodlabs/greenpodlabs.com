@@ -1,34 +1,53 @@
 import React from 'react';
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Card, Button } from 'react-bootstrap';
 import './Company.scss'
 
 const Company = () => (
-    <Row id="company">
-        <Col md={{ span: 10, offset: 1 }} sm={12}>
+    <Row id="company" className="top-margin">
+        <Col xs={{ span: 10, offset: 1 }}>
             <Row>
                 <Col>
                     <div className="text-center">
-                        <h1 className="subheading">Company</h1>
+                        <h1 className="subheading">COMPANY</h1>
                     </div>
                 </Col>
             </Row>
             <Row>
-                <Col md={6} sm={12}>
+                <Col md={5} className="mb-5 mb-md-0">
                     <span className="subtext">We are aligned towards United Nations’s Sustainable Development Goals of halving the food waste by <b>2030</b>. We work towards making this a reality.</span>
+                    <Button href="mailto: greenpodlabs@gmail.com">CONTACT US</Button>
                 </Col>
-                <Col md={{ span: 5, offset: 1}} sm={12}>
-                    <Row id="values">
-                        <Col>
-                            <Row>
-                                <Col className="values-box shadow p-3 mb-5 bg-white rounded"><span>Growth mindset</span></Col>
-                                <Col className="values-box shadow p-3 mb-5 bg-white rounded"><span>Sustainability</span></Col>
-                                <Col className="values-box shadow p-3 mb-5 bg-white rounded"><span>First principles thinking</span></Col>
-                            </Row>
-                            <Row>
-                                <Col className="values-box shadow p-3 mb-5 bg-white rounded"><span>Customer centered</span></Col>
-                                <Col className="values-box shadow p-3 mb-5 bg-white rounded"><span>Innovation with agility</span></Col>
-                                <Col className="values-box shadow p-3 mb-5 bg-white rounded"><span>Integrity with Transparency</span></Col>
-                            </Row>
+                <Col md={{ span: 6, offset: 1}}>
+                    <Row>
+                        <Col lg={4} xs={6}>
+                            <Card className="shadow rounded mb-3">
+                                <Card.Body>Growth Mindset</Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4} xs={6}>
+                            <Card className="shadow rounded mb-3">
+                                <Card.Body>Sustainability</Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4} xs={6}>
+                            <Card className="shadow rounded mb-3">
+                                <Card.Body>First Principles Thinking</Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4} xs={6}>
+                            <Card className="shadow rounded mb-3">
+                                <Card.Body>Customer Centered</Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4} xs={6}>
+                            <Card className="shadow rounded mb-3">
+                                <Card.Body>Innovation with Agility</Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg={4} xs={6}>
+                            <Card className="shadow rounded mb-3">
+                                <Card.Body>Integrity with Transparency</Card.Body>
+                            </Card>
                         </Col>
                     </Row>
                 </Col>
