@@ -5,6 +5,7 @@ import Home from './Home';
 import LearnMore from './LearnMore';
 import OurSolution from './OurSolution';
 import Company from './Company';
+import Footer from './Footer';
 
 import './App.scss';
 
@@ -17,6 +18,7 @@ const App = () => (
                 <LearnMore />
                 <OurSolution />
                 <Company />
+                <Footer />
             </Col>
         </Row>
     </Container>
