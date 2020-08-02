@@ -24,8 +24,8 @@ const TopNav = () => (
             <Nav className="ml-auto">
                 <Nav.Item><Link href="#" className="nav-link" to="home" offset={-500} spy={true} smooth={true} duration={400} delay={100}>HOME</Link>{''}</Nav.Item>
                 <Nav.Item><Link href="#" className="nav-link" to="learn-more" spy={true} smooth={true} duration={400} delay={100}>PROBLEM</Link></Nav.Item>
-                <Nav.Item><Link href="#" className="nav-link" to="our-solution" spy={true} smooth={true} duration={400} delay={100}>SOLUTION</Link></Nav.Item>
-                <Nav.Item><Link href="#" className="nav-link" to="contact" spy={true} smooth={true} duration={400} delay={100}>CONTACT</Link></Nav.Item>
+                <Nav.Item><Link href="#" className="nav-link" to="our-solution" offset={-200} spy={true} smooth={true} duration={400} delay={100}>SOLUTION</Link></Nav.Item>
+                <Nav.Item><Link href="#" className="nav-link" to="company" spy={true} smooth={true} duration={400} delay={100}>COMPANY</Link></Nav.Item>
             </Nav>
         </Navbar.Collapse>
     </Navbar>

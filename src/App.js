@@ -4,6 +4,7 @@ import TopNav from './TopNav';
 import Home from './Home';
 import LearnMore from './LearnMore';
 import OurSolution from './OurSolution';
+import Company from './Company';
 
 import './App.scss';
 
@@ -15,6 +16,7 @@ const App = () => (
                 <Home />
                 <LearnMore />
                 <OurSolution />
+                <Company />
             </Col>
         </Row>
     </Container>

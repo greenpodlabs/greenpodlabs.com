@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
+import { Link, animateScroll as scroll } from "react-scroll";
 import './OurSolution.scss'
 
 const OurSolution = () => (
@@ -20,6 +21,7 @@ const OurSolution = () => (
                 <span className="subtext">
                     We are extending shelf life of fruits and vegetables by naturally activating its defense mechanism thus, slowing the ripening rate and minimizing microbial attack.
                 </span>
+                <Link className="btn btn-primary" to="company" offset={-200} spy={true} smooth={true} duration={400} delay={100}>MORE ABOUT US</Link>{''}
                 </Col>
             </Row>
         </Col>
