@@ -7,13 +7,13 @@ import LearnMore from './LearnMore';
 import './App.scss';
 
 const App = () => (
-    <div>
-    <TopNav />
     <Container fluid>
-        <Home />
-        <LearnMore />
+        <Row>
+            <TopNav />
+            <Home />
+            <LearnMore />
+        </Row>
     </Container>
-    </div>
 );
 
 export default App;
