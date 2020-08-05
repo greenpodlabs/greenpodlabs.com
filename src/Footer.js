@@ -12,7 +12,7 @@ const Footer = () => (
                     <a href="mailto:greenpodlabs@gmail.com">
                         <i className="fa fa-envelope fa-lg"></i>
                     </a>
-                    <a href="mailto:greenpodlabs@gmail.com">
+                    <a href="https://linkedin.com/company/greenpod-labs" target="_blank">
                         <i className="fa fa-linkedin fa-lg"></i>
                     </a>
                 </Col>          
