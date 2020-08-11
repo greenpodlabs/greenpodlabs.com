@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-scroll';
 import './LearnMore.scss'
 
 const LearnMore = () => (

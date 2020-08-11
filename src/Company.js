@@ -16,37 +16,37 @@ const Company = () => (
             <Row className="mt-5 mt-xs-2">
                 <Col md={4} sm={12} className="mt-4">
                     <Card className="shadow rounded" >
-                        <Card.Img variant="top" src="/assets/images/growth-mindset.png" fluid />
+                        <Card.Img variant="top" src="/assets/images/growth-mindset.png" />
                         <Card.Body>Growth Mindset</Card.Body>
                     </Card>
                 </Col>
                 <Col md={4} sm={12} className="mt-4">
                     <Card className="shadow rounded">
-                        <Card.Img variant="top" src="/assets/images/sustainability.png" fluid />
+                        <Card.Img variant="top" src="/assets/images/sustainability.png" />
                         <Card.Body>Sustainability</Card.Body>
                     </Card>
                 </Col>
                 <Col md={4} sm={12} className="mt-4">
                     <Card className="shadow rounded">
-                        <Card.Img variant="top" src="/assets/images/first-principle-thinking.png" fluid />
+                        <Card.Img variant="top" src="/assets/images/first-principle-thinking.png" />
                         <Card.Body>First Principles Thinking</Card.Body>
                     </Card>
                 </Col>
                 <Col md={4} sm={12} className="mt-4">
                     <Card className="shadow rounded">
-                        <Card.Img variant="top" src="/assets/images/customer-centered.png" fluid />
+                        <Card.Img variant="top" src="/assets/images/customer-centered.png" />
                         <Card.Body>Customer Centered</Card.Body>
                     </Card>
                 </Col>
                 <Col md={4} sm={12} className="mt-4">
                     <Card className="shadow rounded">
-                        <Card.Img variant="top" src="/assets/images/innovation-with-agility.png" fluid />
+                        <Card.Img variant="top" src="/assets/images/innovation-with-agility.png" />
                         <Card.Body>Innovation with Agility</Card.Body>
                     </Card>
                 </Col>
                 <Col md={4} sm={12} className="mt-4">
                     <Card className="shadow rounded">
-                        <Card.Img variant="top" src="/assets/images/transparency.png" fluid />
+                        <Card.Img variant="top" src="/assets/images/transparency.png" />
                         <Card.Body>Integrity with Transparency</Card.Body>
                     </Card>
                 </Col>

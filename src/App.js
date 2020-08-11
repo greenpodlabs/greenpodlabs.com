@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import TopNav from './TopNav';
 import Home from './Home';
 import LearnMore from './LearnMore';

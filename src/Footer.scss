@@ -3,25 +3,45 @@
 #footer {
     padding-bottom: 3rem;
     h5 {
-        font-size: 1.35rem;
-        font-weight: 700;
+        font-size: 1.25rem;
+        font-family: 'Prompt', sans-serif;
+        font-weight: 900;
         display: inline;
-        margin-right: 15px;
+        margin-left: 10px;
     }
-    i {
-        color: $lime-green-color;
-        margin: 0 15px;
-        font-size: 1.75rem;
+    
+    a {
+        margin: 15px;
+        text-decoration: none;
+        display: block;
+        
+        i {
+            color: $lime-green-color;
+            font-size: 1.3rem;
+        
+            span {
+                color: $lime-green-color;
+                font-weight: 400;
+                margin-left: 10px;
+                font-size: 0.95rem;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
     }
 
-    span {
+    #copyright {
+        display: block;
+        margin-top: 0.5rem;
+        margin-left: 50px;
         color: $sub-text-color;
+        font-size: 0.9rem;
     }
 
     @media (max-width: 767px) {
         span {
             display: inline-block;
             margin-top: 1rem;
+            margin-left: 5px;
         }
     }
 }
