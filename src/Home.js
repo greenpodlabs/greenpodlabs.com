@@ -12,7 +12,7 @@ const Home = () => (
                 </Col>
                 <Col md={{ span: 6, offset: 3 }}>
                     <h1 className="tagline"><b>Nature</b> Inspired Solutions to Minimize Food Waste.</h1>
-                    <span className="subtext">Our solution uses a unique composition of active compounds which creates a controlled environment which slows down the ripening rate and limits microbial growth.</span>
+                    <span className="subtext">Our fruits and vegetables live longer and stay healthy as we activate its defense mechanism.</span>
                     <Link className="btn btn-primary" to="learn-more" offset={-100} spy={true} smooth={true} duration={400} delay={100}>LEARN MORE</Link>{''}
                 </Col>
             </Row>

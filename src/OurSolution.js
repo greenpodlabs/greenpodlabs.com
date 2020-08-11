@@ -17,7 +17,7 @@ const OurSolution = () => (
                 </Col>
                 <Col md={{ span: 6, offset: 2 }}>
                 <span className="subtext">
-                    We are extending shelf life of fruits and vegetables by naturally activating its defense mechanism thus, slowing the ripening rate and minimizing microbial attack.
+                    We use natural plant extracts to activate the inbuilt defense mechanism which slows down the ripening rate and minimizing microbial growth thus, extending the shelf life of fruits and vegetables.
                 </span>
                 <Link className="btn btn-primary" to="company" offset={-100} spy={true} smooth={true} duration={400} delay={100}>MORE ABOUT US</Link>{''}
                 </Col>
