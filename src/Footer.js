@@ -8,9 +8,9 @@ const Footer = () => (
             <Row>
                 <Col md={8}>
                     <h5>Get in Touch</h5>
-                    <a href="mailto:greenpodlabs@gmail.com">
+                    <a href="mailto:info@greenpodlabs.com">
                         <i className="fa fa-envelope fa-lg">
-                            <span>greenpodlabs@gmail.com</span>
+                            <span>info@greenpodlabs.com</span>
                         </i> 
                     </a>
                     <a href="https://linkedin.com/company/greenpod-labs" target="_blank" rel="noopener noreferrer">
