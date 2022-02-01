@@ -1,26 +1,42 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import './Footer.scss';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import "./Footer.scss";
 
 const Footer = () => (
     <Row id="footer">
-        <Col xs={{ span: 12, offset: 1}}>
+        <Col xs={{ span: 12, offset: 1 }}>
             <Row>
-                <Col md={8}>
-                    <h5>Get in Touch</h5>
+                <Col sm={3}>
+                    <span id="copyright">
+                        © Copyright {new Date().getFullYear()}
+                    </span>
+                </Col>
+                <Col sm={6}>
                     <a href="mailto:info@greenpodlabs.com">
                         <i className="fa fa-envelope fa-lg">
                             <span>info@greenpodlabs.com</span>
-                        </i> 
+                        </i>
                     </a>
-                    <a href="https://linkedin.com/company/greenpod-labs" target="_blank" rel="noopener noreferrer">
+                    <a
+                        href="https://linkedin.com/company/greenpod-labs"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <i className="fa fa-linkedin fa-lg">
-                            <span>GreenPod Labs on Linkedin</span>
-                        </i> 
+                            <span>GreenPod Labs</span>
+                        </i>
+                    </a>
+                    <a
+                        href="/privacy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i className="fa fa-lock fa-lg">
+                            <span>Privacy Policy</span>
+                        </i>
                     </a>
                 </Col>
-                <Col md={3}>
-                    <br /><br />
+                <Col sm={3}>
                     <img
                         src="/assets/images/logo.png"
                         width="30"
@@ -29,7 +45,6 @@ const Footer = () => (
                         alt="Greenpod Labs"
                     />
                     <h5>GREENPOD LABS</h5>
-                    <span id="copyright">© Copyright {(new Date().getFullYear())}</span>
                 </Col>
             </Row>
         </Col>

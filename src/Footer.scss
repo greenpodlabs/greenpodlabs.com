@@ -1,38 +1,33 @@
-@import '_vars';
+@import "_vars";
 
 #footer {
     padding-bottom: 3rem;
     h5 {
-        font-size: 1.25rem;
-        font-family: 'Prompt', sans-serif;
+        font-size: 1.35rem;
+        font-family: "Prompt", sans-serif;
         font-weight: 900;
         display: inline;
-        margin-left: 10px;
     }
-    
+
     a {
         margin: 15px;
         text-decoration: none;
-        display: block;
-        
+
         i {
             color: $lime-green-color;
             font-size: 1.3rem;
-        
+
             span {
                 color: $lime-green-color;
                 font-weight: 400;
                 margin-left: 10px;
                 font-size: 0.95rem;
-                font-family: 'Poppins', sans-serif;
+                font-family: "Poppins", sans-serif;
             }
         }
     }
 
     #copyright {
-        display: block;
-        margin-top: 0.5rem;
-        margin-left: 50px;
         color: $sub-text-color;
         font-size: 0.9rem;
     }
